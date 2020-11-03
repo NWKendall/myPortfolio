@@ -1,0 +1,17 @@
+.contentsContainer {
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.contentsDiv {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+    color: var(--text-color);
+
+}
