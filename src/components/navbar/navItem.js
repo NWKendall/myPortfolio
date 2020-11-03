@@ -1,15 +1,10 @@
 import React from "react";
+import "./navbar.css";
 
 const NavItem = ({ text, link, icon }) => {
   return (
-      <li className="nav-item">
-          {text === "github" ? (
-            <a 
-            className="icon-button" href={link} target="_blank" rel="noreferrer"
-            >
-            {icon}
-            </a>
-      ) : text === "resume" ? (
+    <li className="nav-item">
+      {text === "resume" ? (
         <a className="icon-button" href={link} download>
           {icon}
         </a>
@@ -23,9 +18,3 @@ const NavItem = ({ text, link, icon }) => {
 };
 
 export default NavItem;
-
-
-{/* <div>
-    <a href={link} target="_blank" rel="noreferrer"> Profile </a>                
-    <a>Activity</a>
-</div> */}

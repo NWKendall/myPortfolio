@@ -41,10 +41,37 @@
 }
 
 .icon-button:hover{
-    filter: brightness(1.4)
+    filter: brightness(1.4);
+    cursor: pointer;
 }
 .icon-button svg {
     fill: var(--text-color);
     width: 20px;
     height: 20px;
+}
+.dropdown {
+    position: absolute;
+    top: 50px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    overflow: hidden;
+}
+.menu-item {
+    color: var(--text-color);   
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius);
+    transition: background var(--speed);
+    padding: 0.5rem;
+}
+.menu-item:hover {
+    background-color: #525357;
+    cursor: pointer;
 }
