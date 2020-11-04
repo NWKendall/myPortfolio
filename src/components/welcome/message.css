@@ -1,0 +1,22 @@
+.messageContainer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.letter {
+    font-size: 2rem;
+    filter: blur(1px);
+    transition: 2s;
+}
+.letter:hover {
+    transform: rotate(90deg) translateY(-100px);
+    transition: 2s;
+    filter: blur(20px);
+    opacity: 0;
+}
+.spacing {
+    letter-spacing: .5rem;
+    opacity: 0;
+
+}

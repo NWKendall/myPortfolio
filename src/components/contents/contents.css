@@ -1,8 +1,9 @@
 .contentsContainer {
-    height: 95vh;
+    height: 93.5vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+    padding: 0;
 }
 
 .contentsDiv {
@@ -11,7 +12,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 40px;
+    padding: 0 40px;
     color: var(--text-color);
 
 }
