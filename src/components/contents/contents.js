@@ -22,6 +22,7 @@ const Contents = () => {
           </div>
         )}
       </div>
+      <div className="wave"></div>
     </div>
   );
 };

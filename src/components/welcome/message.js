@@ -44,17 +44,15 @@ const GhostMessage = () => {
     "r",
   ];
 
-
-
   return (
     <ul className="messageContainer">
-      {messageString.map((chr) => (
-          chr === " " ? (
-            <li className="spacing">_</li>
-          ) : (
-            <li className="letter">{chr}</li>
-          )
-      ))}
+      {messageString.map((chr) =>
+        chr === " " ? (
+          <h3 className="spacing">_</h3>
+        ) : (
+          <h3 className="letter">{chr}</h3>
+        )
+      )}
     </ul>
   );
 };
