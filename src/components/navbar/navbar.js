@@ -3,9 +3,9 @@ import NavItem from "./navItem.js";
 import "./navbar.css";
 import ExpandableNavItem from "./expandableNavItem.js";
 import DropDownMenu from "./DDMenu";
-import { ReactComponent as GitHubIcon } from "../../assets/github.svg";
-import { ReactComponent as LinkedInIcon } from "../../assets/linkedin.svg";
-import { ReactComponent as ProtonMailIcon } from "../../assets/protonmail.svg";
+import { ReactComponent as GitHubIcon } from "../../assets/icons/github.svg";
+import { ReactComponent as LinkedInIcon } from "../../assets/icons/linkedin.svg";
+import { ReactComponent as ProtonMailIcon } from "../../assets/icons/protonmail.svg";
 
 const NavBar = () => {
   return (
