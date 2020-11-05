@@ -1,0 +1,23 @@
+.star {
+    position: absolute;
+    background: rgb(36, 215, 228);
+    border-radius: 50%;
+    filter: blur(1px);
+    animation: star-animate linear infinite;
+  }
+  
+  @keyframes star-animate {
+    0% {
+      opacity: 0;
+      transform: translateY(0);
+    }
+    10%,
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+  }
+  

@@ -49,22 +49,22 @@ const GhostMessage = () => {
   return (
     <div className="container">
       <ul className="messageContainer">
-        {message1.map((chr) =>
+        {message1.map((chr, key) =>
           chr === " " ? (
-            <h3 className="spacing">_</h3>
+            <h3 key={key} className="spacing">_</h3>
           ) : (
-            <h3 className="letter">{chr}</h3>
+            <h3 key={key} className="letter">{chr}</h3>
           )
         )}
         
         </ul>
         <h3 className="letter">&</h3>
       <ul className="messageContainer">
-        {message2.map((chr) =>
+        {message2.map((chr, key) =>
           chr === " " ? (
-            <h3 className="spacing">_</h3>
+            <h3 key={key} className="spacing">_</h3>
           ) : (
-            <h3 className="letter">{chr}</h3>
+            <h3 key={key} className="letter">{chr}</h3>
           )
         )}
 
