@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./contents.css";
-import { stars } from "../../utils/stars.js";
 import GhostMessage from "../ghostMessage/ghostMessage.js";
 import GlassButton from "../buttons/GlassButton.js";
 const Contents = () => {
@@ -10,9 +9,7 @@ const Contents = () => {
     setShowContent(!showContent);
   };
 
-  useEffect(() => {
-    stars(".welcomeDiv");
-  }, []);
+
 
   return (
     <>
