@@ -1,0 +1,52 @@
+.aboutDiv
+{
+  display: flex;  
+  /* flex-direction: column; */
+  justify-content: center;
+  padding: 2em;
+}
+.aboutText
+{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5em;
+
+  /* border: 1px solid pink; */
+  
+}
+.aboutText p 
+{
+  color: var(--text-color);
+  font-size: 1.2rem;
+  text-align: justify;
+
+}
+
+.aboutText a 
+{
+  /* font-size: 1.5rem; */
+  color: #EC3944
+}
+.aboutText h3
+{
+  font-size: 1.5rem;
+}
+
+.aboutImage
+{  
+  display: flex;
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.5em;
+  /* border: 1px solid pink; */
+
+}
+
+.picture {
+  width: 300px;
+  height: 300px;
+}

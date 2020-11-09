@@ -4,7 +4,7 @@ import GhostMessage from "../ghostMessage/ghostMessage.js";
 import GlassButton from "../buttons/GlassButton.js";
 import MyInfo from "../myInfo/myInfo";
 const Contents = () => {
-  const [showContent, setShowContent] = useState(false);
+  const [showContent, setShowContent] = useState(true);
 
   const toggleContent = () => {
     setShowContent(!showContent);
@@ -20,8 +20,8 @@ const Contents = () => {
           <GlassButton title="about me" compFunc={toggleContent} />
         </div>
       ) : (
-        <MyInfo toggleContent={toggleContent} />
-      )}
+          <MyInfo toggleContent={toggleContent} />
+        )}
     </>
   );
 };
