@@ -1,0 +1,19 @@
+.infoNav {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5em 2.5em 5em 5em;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.infoOption {
+  size: 3em;
+  color: var(--text-color);
+}
+
+.infoOption:hover {
+  cursor: pointer;
+}

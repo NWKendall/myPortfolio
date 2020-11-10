@@ -1,5 +1,5 @@
 import React from 'react';
-import "./infroNav.css";
+import "./infoNav.css";
 
 const InfoNav = ({ setShowInfo, toggleContent }) => {
     return (

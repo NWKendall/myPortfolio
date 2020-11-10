@@ -17,8 +17,9 @@
 }
 
 .letter {
-    font-size: 3rem;
-    filter: blur(1px);
+    font-size: 4rem;
+    font-family: 'Indie Flower', cursive;
+    filter: blur(0.5px);
     transition: 4s;
     margin: 0;
     padding: 0;

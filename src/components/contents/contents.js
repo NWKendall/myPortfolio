@@ -13,9 +13,10 @@ const Contents = () => {
   };
 
   useEffect(() => {
-    if(!showContent){
-      stars(".welcomeDiv");
-    }
+    if(!showContent) {
+      stars(".App");
+    };
+    
   }, [showContent]);
 
   return (

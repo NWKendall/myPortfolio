@@ -9,6 +9,8 @@
 }
 .username {
     color: var(--text-color);
+    font-family: 'Indie Flower', cursive;
+    font-size: 3rem;
 }
 
 .navbar-nav {
