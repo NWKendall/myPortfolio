@@ -1,7 +1,7 @@
 import "./stars.css";
 
 export function stars(el) {
-  let count = 100;
+  let count = 50;
   let bgElement = document.querySelector(el);
   let i = 0;
   while (i <= count) {

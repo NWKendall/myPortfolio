@@ -6,7 +6,7 @@ function MyInfo({ toggleContent }) {
   const [showInfo, setShowInfo] = useState("about");
   return (
     <div className="infoDiv">
-      <InfoNav setShowInfo={setShowInfo} toggleContent={toggleContent} />
+      <InfoNav showInfo={showInfo} setShowInfo={setShowInfo} toggleContent={toggleContent} />
       <div className="infoContents">
         {showInfo === "projects" ? (
           <Projects />

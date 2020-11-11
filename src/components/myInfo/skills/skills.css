@@ -13,7 +13,8 @@
   display: grid;
   padding: 0 0.5em;
   height: 100%;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(41, 14, 14, 0.3);
+
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 
   grid-template-columns: repeat(4, minmax(50px, 1fr));
@@ -33,7 +34,8 @@
   gap: 0.25em 0.5em;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(41, 14, 14, 0.2);
+
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 
 }
