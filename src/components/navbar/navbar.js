@@ -12,23 +12,26 @@ const NavBar = () => {
     <nav className="navbar">
       <h2 className="username">Nic Kendall</h2>
       <ul className="navbar-nav">
-        <ExpandableNavItem text="github" icon={<GitHubIcon />}>
+        <ExpandableNavItem text="github" title="GitHub" icon={<GitHubIcon />}>
           <DropDownMenu />
         </ExpandableNavItem>
         <NavItem
           text="linkedIn"
           icon={<LinkedInIcon />}
           link="https://www.linkedin.com/in/nwkendall/"
+          title="LinkedIn"
         />
         <NavItem
           text="email"
           icon={<ProtonMailIcon />}
           link="mailto:nic.kendal.dev@protonmail.com"
+          title="nic.kendall.dev@protonmail.com"
         />
         <NavItem
           text="resume"
           icon="📄"
           link="/src/assets/Nic Kendall Resume SE.pdf"
+          title="Resume"
         />
       </ul>
     </nav>

@@ -1,0 +1,34 @@
+.projectsContainer
+{
+  display: grid;  
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0.5em;
+  /* width: 100%; */
+  /* justify-content: space-around; */
+  /* padding: 2em; */
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.projectList{
+  width: 100%;
+  border: 1px solid pink;
+  overflow: hidden;
+}
+
+.projectCard {
+  background: rgba(41, 14, 14, 0.3);
+  padding: 1em;
+
+}
+
+.projectList li:hover {
+  cursor: pointer;
+}
+
+.projectPreview{
+  width: 100%;
+  border: 1px solid pink;
+}

@@ -10,6 +10,7 @@ const ExpandableNavItem = (props) => {
         className="icon-button"
         onClick={() => setIsVisible(!isVisible)}
         ref={ref}
+        title={props.title}
       >
         {props.icon}
       </span>

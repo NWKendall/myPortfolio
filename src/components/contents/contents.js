@@ -6,18 +6,18 @@ import GhostMessage from "../ghostMessage/ghostMessage.js";
 import GlassButton from "../buttons/GlassButton.js";
 import MyInfo from "../myInfo/myInfo";
 const Contents = () => {
-  const [showContent, setShowContent] = useState(false);
+  const [showContent, setShowContent] = useState(true);
 
   const toggleContent = () => {
     setShowContent(!showContent);
   };
 
-  useEffect(() => {
-    if(!showContent) {
-      stars(".App");
-    };
+  // useEffect(() => {
+  //   if(!showContent) {
+  //     stars(".App");
+  //   };
     
-  }, [showContent]);
+  // }, [showContent]);
 
   return (
     <>

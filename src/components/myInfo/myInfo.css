@@ -1,7 +1,7 @@
 .infoDiv {
     height: 90vh;
     display: flex;
-    width: 99.9%;
+    /* width: 99.9%; */
     color: var(--text-color);
 
     /* border: 1px solid pink; */
