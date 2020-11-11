@@ -1,21 +1,21 @@
 import React from "react";
 import {
-  html5,
-  css3,
-  javaScript,
-  git,
-  nodeJS,
-  react,
-  materialUI,
-  python,
-  postgres,
-  deno,
-  cSharp,
-  typeScript,
-  linux,
-  docker,
-  gitHubActions,
-  webAssembly,
+  HTML5Icon,
+  CSS3Icon,
+  JavaScriptIcon,
+  GitIcon,
+  NodeJSIcon,
+  ReactIcon,
+  MaterialUIIcon,
+  PythonIcon,
+  PostgresIcon,
+  DenoIcon,
+  CSharpIcon,
+  TypeScriptIcon,
+  LinuxIcon,
+  DockerIcon,
+  GitHubActionsIcon,
+  WebAssemblyIcon,
 } from "./images";
 import "./skills.css";
 
@@ -25,13 +25,37 @@ const Skills = () => {
     <section className="skillsContainer">
       <div className="skills1">
         <h2>skills</h2>
-        <img
-          style={{ backgroundColor: "#E34F26" }}
-          src={html5}
-          alt="HTML5"
-          title="HTML5"
+        <HTML5Icon style={{ fill: "white", backgroundColor: "#E34F26" }} />
+        <CSS3Icon style={{ fill: "white", backgroundColor: "#1572B6" }} />
+        <JavaScriptIcon style={{ fill: "black", backgroundColor: "#F7DF1E" }} />
+        <GitIcon style={{ fill: "white", backgroundColor: "#F05032" }} />
+        <NodeJSIcon style={{ fill: "white", backgroundColor: "#339933" }} />
+        <ReactIcon style={{ fill: "black", backgroundColor: "#61DAFB" }} />
+        <MaterialUIIcon style={{ fill: "white", backgroundColor: "#0081CB" }} />
+        <PythonIcon style={{ fill: "white", backgroundColor: "#3776AB" }} />
+        <PostgresIcon style={{ fill: "white", backgroundColor: "#336791" }} />
+      </div>
+      <div className="skills2">
+        <h2>learning</h2>
+        <DenoIcon style={{ fill: "white", backgroundColor: "#000000" }} />
+        <CSharpIcon style={{ fill: "white", backgroundColor: "#239120" }} />
+        <TypeScriptIcon style={{ fill: "white", backgroundColor: "#007ACC" }} />
+        <LinuxIcon style={{ fill: "black", backgroundColor: "#FCC624" }} />
+        <DockerIcon style={{ fill: "white", backgroundColor: "#2496ED" }} />
+        <GitHubActionsIcon
+          style={{ fill: "white", backgroundColor: "#2088FF" }}
         />
-        <img
+        <WebAssemblyIcon
+          style={{ fill: "white", backgroundColor: "#654FF0" }}
+        />
+      </div>
+    </section>
+  );
+};
+export default Skills;
+
+{
+  /* <img
           style={{ backgroundColor: "#1572B6" }}
           src={css3}
           alt="CSS3"
@@ -78,54 +102,5 @@ const Skills = () => {
           src={python}
           alt="Python"
           title="Python"
-        />
-      </div>
-      <div className="skills2">
-        <h2>learning</h2>
-        <img
-          style={{ backgroundColor: "#007ACC" }}
-          src={typeScript}
-          alt="TypeScript JS"
-          title="TypeScript"
-        />
-        <img
-          style={{ backgroundColor: "#FFF" }}
-          src={deno}
-          alt="Deno"
-          title="Deno"
-        />
-        <img
-          style={{ backgroundColor: "#FCC624" }}
-          src={linux}
-          alt="Linux"
-          title="Linux"
-        />
-        <img
-          style={{ backgroundColor: "#2496ED" }}
-          src={docker}
-          alt="Docker"
-          title="Docker"
-        />
-        <img
-          style={{ backgroundColor: "#2088FF" }}
-          src={gitHubActions}
-          alt="GitHub Actions"
-          title="GitHub Actions"
-        />
-        <img
-          style={{ backgroundColor: "#239120" }}
-          src={cSharp}
-          alt="C Sharp"
-          title="C#"
-        />
-        <img
-          style={{ backgroundColor: "#654FF0" }}
-          src={webAssembly}
-          alt="Web Assembly"
-          title="Web Assembley (WASM)"
-        />
-      </div>
-    </section>
-  );
-};
-export default Skills;
+        /> */
+}

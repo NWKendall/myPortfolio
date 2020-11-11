@@ -1,7 +1,7 @@
 # need:
     - default animation for welcome ✅
     - navbar not responsding???? ✅
-    - tooltip
+    - tooltip ✅
     - fix screen size issue! ✅
     - pdf previewer
     - cool transitions between welcome and info display
@@ -9,7 +9,8 @@
         - x = 458
         - starry effect < 685 breaks
     - check out CSS reset from game of life for this one
-
+    - recolor skill icons
+    - nav style for selected option
 ## Resource Credits
 - icons: https://simpleicons.org/
 - background Image: [Serey Kim]("https://unsplash.com/photos/vUePu7hAYAQ")
