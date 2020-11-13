@@ -14,8 +14,18 @@
     - tab icon
 # Pimped
     - pdf previewer
-    - cool transitions between welcome and info display
-    - 
+    - tranisition animation between welcome and info display
+    - transition animation between about, skills, projects
+    - skills
+        -icon spinner when hover / click on skill tile
+    - about 
+        - spinning lambda icon
+    - projects
+        - modal / zoom for images
+        - scroll for more than 4 projects
+        - view type?
+            - grid
+            - list
 ## Resource Credits
 - icons: https://simpleicons.org/
 - background Image: [Serey Kim]("https://unsplash.com/photos/vUePu7hAYAQ")

@@ -58,7 +58,7 @@ const GhostMessage = () => {
         )}
         
         </ul>
-        <h3 className="letter">&</h3>
+        <h3 className="letter and">&</h3>
       <ul className="messageContainer">
         {message2.map((chr, key) =>
           chr === " " ? (
