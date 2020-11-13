@@ -39,11 +39,11 @@ const Skills = () => {
         <h2>Learning</h2>
         <TypeScriptIcon style={{ fill: "white", backgroundColor: "#007ACC" }} />
         <DenoIcon style={{ fill: "white", backgroundColor: "#000000" }} />
-        <LinuxIcon style={{ fill: "black", backgroundColor: "#FCC624" }} />
-        <DockerIcon style={{ fill: "white", backgroundColor: "#2496ED" }} />
         <GitHubActionsIcon
           style={{ fill: "white", backgroundColor: "#2088FF" }}
         />
+        <LinuxIcon style={{ fill: "black", backgroundColor: "#FCC624" }} />
+        <DockerIcon style={{ fill: "white", backgroundColor: "#2496ED" }} />
         <CSharpIcon style={{ fill: "white", backgroundColor: "#239120" }} />
         <WebAssemblyIcon
           style={{ fill: "white", backgroundColor: "#654FF0" }}

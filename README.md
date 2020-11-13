@@ -6,9 +6,12 @@
     - media queries:
         - x = 458
         - starry effect < 685 breaks
-    - check out CSS reset from game of life for this one
+    - check out CSS reset from game of life for this one 
+        - done with materialUI
+            - check container poperties
     - recolor skill icons ✅
     - nav style for selected option ✅
+    - tab icon
 # Pimped
     - pdf previewer
     - cool transitions between welcome and info display

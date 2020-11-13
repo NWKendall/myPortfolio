@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-grow: 1;
 }
 .username {
     color: var(--text-color);
@@ -75,3 +76,33 @@
     background-color: #525357;
     cursor: pointer;
 }
+
+/* MEDIA QUERIES */
+
+@media all and (max-width: 440px) {
+    .navbar {
+        flex-direction: column;
+        height: calc(var(--nav-size) * 2);
+        justify-content: space-around;
+
+    }
+    .username {
+        margin: .1em 0 0 0;
+        font-size: 3rem;
+
+    }
+    .icon-button {
+        /* border: 1px solid pink; */
+    }
+}
+
+
+@media all and (max-width: 280px) {
+    .username {
+        font-size: 2.5rem;
+    }
+}
+
+
+
+

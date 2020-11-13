@@ -1,8 +1,6 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
     width: 100%;
     /* border: 1px pink dashed; */
 }
@@ -11,8 +9,9 @@
     padding: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 2em 0;
-    /* border: 1px pink dashed; */
+    border: 1px pink dashed;
 
 }
 
@@ -35,4 +34,26 @@
     opacity: 0;
     margin: 0;
     padding: 0;
+}
+
+@media all and (max-width: 550px) {
+    .letter {
+        font-size: 3rem;
+
+   
+    }
+}
+
+@media all and (max-width: 400px) {
+    .letter {
+        font-size: 2.5rem;
+
+    }
+}
+
+@media all and (max-width: 320px) {
+    .letter {
+        font-size: 2rem;
+
+    }
 }

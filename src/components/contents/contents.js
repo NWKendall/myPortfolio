@@ -12,12 +12,12 @@ const Contents = () => {
     setShowContent(!showContent);
   };
 
-  useEffect(() => {
-    if(!showContent) {
-      stars(".App");
-    };
+  // useEffect(() => {
+  //   if(!showContent) {
+  //     stars(".App");
+  //   };
     
-  }, [showContent, setShowContent]);
+  // }, [showContent, setShowContent]);
 
   return (
     <>
