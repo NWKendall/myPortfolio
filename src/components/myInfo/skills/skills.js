@@ -24,7 +24,7 @@ const Skills = () => {
   return (
     <section className="skillsContainer">
       <div className="skills1">
-        <h2>skills</h2>
+        <h2>Current</h2>
         <HTML5Icon style={{ fill: "white", backgroundColor: "#E34F26" }} />
         <CSS3Icon style={{ fill: "white", backgroundColor: "#1572B6" }} />
         <JavaScriptIcon style={{ fill: "black", backgroundColor: "#F7DF1E" }} />
@@ -36,7 +36,7 @@ const Skills = () => {
         <GitIcon style={{ fill: "white", backgroundColor: "#F05032" }} />
       </div>
       <div className="skills2">
-        <h2>learning</h2>
+        <h2>Learning</h2>
         <TypeScriptIcon style={{ fill: "white", backgroundColor: "#007ACC" }} />
         <DenoIcon style={{ fill: "white", backgroundColor: "#000000" }} />
         <LinuxIcon style={{ fill: "black", backgroundColor: "#FCC624" }} />

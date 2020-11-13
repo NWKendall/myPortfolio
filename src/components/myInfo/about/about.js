@@ -6,7 +6,6 @@ const About = () => {
     return (
         <section className="aboutDiv">
             <section className="aboutText">
-                <h2>About</h2>
                 <p>After providing ABA therapy to kids with Autism for four years, the automation of information processing increasingly became a bigger issue. No doubt it's a similar story in other fields too.</p>
 
                 <p>The realization dawned:</p>
