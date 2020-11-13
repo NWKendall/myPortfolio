@@ -28,23 +28,23 @@ const Skills = () => {
         <HTML5Icon style={{ fill: "white", backgroundColor: "#E34F26" }} />
         <CSS3Icon style={{ fill: "white", backgroundColor: "#1572B6" }} />
         <JavaScriptIcon style={{ fill: "black", backgroundColor: "#F7DF1E" }} />
-        <GitIcon style={{ fill: "white", backgroundColor: "#F05032" }} />
-        <NodeJSIcon style={{ fill: "white", backgroundColor: "#339933" }} />
         <ReactIcon style={{ fill: "black", backgroundColor: "#61DAFB" }} />
         <MaterialUIIcon style={{ fill: "white", backgroundColor: "#0081CB" }} />
-        <PythonIcon style={{ fill: "white", backgroundColor: "#3776AB" }} />
+        <NodeJSIcon style={{ fill: "white", backgroundColor: "#339933" }} />
         <PostgresIcon style={{ fill: "white", backgroundColor: "#336791" }} />
+        <PythonIcon style={{ fill: "white", backgroundColor: "#3776AB" }} />
+        <GitIcon style={{ fill: "white", backgroundColor: "#F05032" }} />
       </div>
       <div className="skills2">
         <h2>learning</h2>
-        <DenoIcon style={{ fill: "white", backgroundColor: "#000000" }} />
-        <CSharpIcon style={{ fill: "white", backgroundColor: "#239120" }} />
         <TypeScriptIcon style={{ fill: "white", backgroundColor: "#007ACC" }} />
+        <DenoIcon style={{ fill: "white", backgroundColor: "#000000" }} />
         <LinuxIcon style={{ fill: "black", backgroundColor: "#FCC624" }} />
         <DockerIcon style={{ fill: "white", backgroundColor: "#2496ED" }} />
         <GitHubActionsIcon
           style={{ fill: "white", backgroundColor: "#2088FF" }}
         />
+        <CSharpIcon style={{ fill: "white", backgroundColor: "#239120" }} />
         <WebAssemblyIcon
           style={{ fill: "white", backgroundColor: "#654FF0" }}
         />
