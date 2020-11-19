@@ -1,55 +1,57 @@
-.aboutDiv
-{
-  display: flex;  
-  /* flex-direction: column; */
-  justify-content: center;
+.aboutDiv {
+  display: flex;
+  flex-grow: 1;
   padding: 2em;
   background: rgba(41, 14, 14, 0.3);
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-
 }
-.aboutText
-{
+.aboutText {
   width: 45%;
   display: flex;
+  justify-content: center;
+  flex-grow: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 1.5em;
 
-  /* border: 1px solid pink; */
-  
+  border: 1px solid pink;
 }
-.aboutText p 
-{
+.aboutText p {
   color: var(--text-color);
   font-size: 1.2rem;
   text-align: justify;
-
+  /* word-wrap: break-word; */
 }
 
-.aboutText a 
-{
+.aboutText a {
   /* font-size: 1.5rem; */
-  color: #EC3944
+  color: #ec3944;
 }
-.aboutText h3
-{
+.aboutText h3 {
   font-size: 1.5rem;
 }
 
-.aboutImage
-{  
+.aboutImage {
   display: flex;
   width: 45%;
   justify-content: center;
   align-items: center;
   margin-left: 1.5em;
   /* border: 1px solid pink; */
-
 }
 
 .picture {
   width: 300px;
   height: 300px;
+}
+
+@media all and (max-width: 1420px) {
+  .aboutText p {
+    font-size: 1rem;
+    text-align: justify;
+    /* word-wrap: break-word; */
+  }
+  .aboutText h3 {
+    font-size: 1.2rem;
+  }
 }
