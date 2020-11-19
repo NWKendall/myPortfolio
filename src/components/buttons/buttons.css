@@ -5,7 +5,7 @@
 }
 .cta {
   position: relative;
-  padding: 25px 30px;
+  padding: 1rem 1.2rem;
   color: #fff;
   font-size: 2em;
   font-family: 'Indie Flower', cursive;
@@ -116,5 +116,15 @@
   {
       height: 100%;
       transform: translateY(-100%);
+  
+  }
+
+  @media all and (max-width: 750px) {
+    .cta{
+      padding: 0.6em 0.8em;
+      font-size: 1.2em;
+
+    }
+
   
   }
