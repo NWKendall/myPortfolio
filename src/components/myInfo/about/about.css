@@ -20,13 +20,15 @@
   color: var(--text-color);
   font-size: 1.2rem;
   text-align: justify;
-  /* word-wrap: break-word; */
 }
 
 .aboutText a {
-  /* font-size: 1.5rem; */
   color: #ec3944;
 }
+.aboutText a:hover {
+  color: var(--border-color);
+}
+
 .aboutText h3 {
   font-size: 1.5rem;
 }
@@ -41,17 +43,85 @@
 }
 
 .picture {
-  width: 300px;
-  height: 300px;
+  width: 20em;
+  height: 20em;
 }
 
 @media all and (max-width: 1420px) {
-  .aboutText p {
+  /* .aboutText p {
     font-size: 1rem;
     text-align: justify;
-    /* word-wrap: break-word; */
-  }
+  } */
   .aboutText h3 {
     font-size: 1.2rem;
   }
+  .picture {
+    width: 18em;
+    height: 18em;
+  }
+
+}
+
+
+
+@media all and (max-width: 1380px) {
+    .aboutText p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .picture {
+    width: 17em;
+    height: 17em;
+  }
+
+}
+
+
+@media all and (max-width: 1040px) {
+  /* .aboutText p {
+    font-size: 1rem;
+  }
+  .aboutText h3 {
+    font-size: 1rem;
+  } */
+  .picture {
+    width: 15em;
+    height: 15em;
+  }
+}
+
+@media all and (max-width: 970px) {
+  /* .aboutText p {
+    font-size: 1rem;
+  }
+  .aboutText h3 {
+    font-size: 1rem;
+  } */
+  .picture {
+    width: 15em;
+    height: 15em;
+  }
+}
+
+@media all and (max-width: 860px) {
+  .aboutDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutText {
+    width: 100%;
+
+  }
+  .aboutImage{
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+
+    border: 1px solid pink;
+  }
+  .picture {
+    width: 12em;
+    height: 12em;
+  }
+
 }

@@ -24,3 +24,35 @@
   cursor: pointer;
   color: var(--border-color)
 }
+
+
+@media all and (max-width: 1300px) {
+  .infoNav {
+    margin: 4em 2em 4em 4em;
+  }
+}
+
+@media all and (max-width: 1050px) {
+  .infoNav {
+    margin: 3.5em 1.5em 3.5em 3.5em;
+  }
+}
+
+@media all and (max-width: 970px) {
+  .infoNav {
+    border: 1px solid pink;
+    margin: 3em 1.5em 3em 3em;
+  }
+  
+}
+
+@media all and (max-width: 860px) {
+  .infoNav {
+    border: 1px solid pink;
+    margin: 3em 1.5em 3em 3em;
+  }
+  .infoOption {
+    font-size: 1.5em;
+    line-height: 2.5em;
+  }
+}
