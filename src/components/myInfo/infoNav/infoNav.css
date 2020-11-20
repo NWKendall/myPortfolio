@@ -17,14 +17,12 @@
 }
 .infoOPtion--active {
   background: rgba(255, 255, 255, 0.1);
-
 }
 
 .infoOption:hover {
   cursor: pointer;
-  color: var(--border-color)
+  color: var(--border-color);
 }
-
 
 @media all and (max-width: 1300px) {
   .infoNav {
@@ -42,7 +40,6 @@
   .infoNav {
     margin: 3em 1.5em 3em 3em;
   }
-  
 }
 
 @media all and (max-width: 860px) {
@@ -52,8 +49,23 @@
   .infoOption {
     font-size: 1.2em;
     line-height: 2em;
-    width:auto;
-    border: 1px solid pink;
+    width: auto;
+  }
+}
 
+@media all and (max-width: 450px) {
+  .infoNav {
+    width: 100%;
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 auto;
+
+  }
+  .infoOption {
+    color: var(--text-color);
+    width: 100%;
+    line-height: 2em;
   }
 }

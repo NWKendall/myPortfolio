@@ -126,3 +126,33 @@
   }
 
 }
+
+@media all and (max-width: 500px) {
+
+  .aboutText p {
+    font-size: 1rem;
+  }
+  .aboutText h3 {
+    font-size: 1rem;
+  }
+  .picture {
+    width: 8em;
+    height: 8em;
+  }
+
+}
+
+@media all and (max-width: 450px) {
+
+  .aboutText p {
+    font-size: 1rem;
+  }
+  .aboutText h3 {
+    font-size: 1.2rem;
+  }
+  .picture {
+    width: 8em;
+    height: 8em;
+  }
+
+}

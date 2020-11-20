@@ -38,6 +38,13 @@
 @media all and (max-width: 860px) {
   .infoContents {
     width: 100%;
-    margin: 1em 1em 1em 0;
+    margin: 1em 1em 1em 0em;
   }
+}
+
+@media all and (max-width: 450px){
+  .infoDiv {
+    flex-direction: column;
+  }
+
 }
