@@ -5,54 +5,31 @@
   grid-template-columns: 1fr 1fr;
   width: 100%;
   max-width: 100%;
-
-
-}
-
-.skills1 {
-  display: grid;
-  padding: 0 0.5em;
-  height: 100%;
-  background: rgba(41, 14, 14, 0.3);
-
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-
-  grid-template-columns: repeat(4, minmax(50px, 1fr));
-  grid-template-rows: repeat(4, minmax(50px, 1fr));
-  gap: 0.25em 0.5em;
-  
-  justify-content: center;
-  align-items: center;
-  /* border: 1px solid pink; */
 }
-.skills2 {
-  display: grid;
-  padding: 0 0.5em;
-  height: 100%;
-  grid-template-columns: repeat(4, minmax(50px, 1fr));
-  grid-template-rows: repeat(4, minmax(50px, 1fr));
-  gap: 0.25em 0.5em;
-  justify-content: center;
-  align-items: center;
-  background: rgba(41, 14, 14, 0.2);
-
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-
-}
-
-.skillsContainer > div > h2 {
+.skillHeader {
   grid-column: 1/-1;
   align-self: center;
-  font-size: 3rem;
+  font-size: 3em;
+}
+.skills {
+  display: grid;
+  padding: 0 0.5em;
+  height: 100%;
+  background: rgba(41, 14, 14, 0.2);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  grid-template-rows: repeat(4, minmax(125px, 1fr));
+  gap: 0.25em 0.5em;
+  justify-content: center;
+  align-items: center;
+}
+.skillsOtherBG {
+  background: rgba(41, 14, 14, 0.3);
 }
 
-.skillsContainer > div > img {
-  margin: 0 auto;
+.skillIcon:hover {
+  cursor: crosshair;
+  transform: rotateY(360deg);
+  transition-duration: 1500ms;
 }
-
-
-
-.skillsContainer > div > img:hover {
-    cursor: help;
-  }
-  

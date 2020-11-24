@@ -29,4 +29,12 @@ export {
   PostgresIcon,
 };
 
-export { DenoIcon, CSharpIcon, TypeScriptIcon, LinuxIcon, DockerIcon, GitHubActionsIcon, WebAssemblyIcon };
+export {
+  DenoIcon,
+  CSharpIcon,
+  TypeScriptIcon,
+  LinuxIcon,
+  DockerIcon,
+  GitHubActionsIcon,
+  WebAssemblyIcon,
+};
