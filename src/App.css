@@ -12,6 +12,15 @@
   flex-grow: 1;
 }
 
+
+@media all and (max-width: 450px){
+  .App {
+    height: 100%;
+  }
+
+}
+
+
 /* .wave {
   margin: 0;
   position: absolute;

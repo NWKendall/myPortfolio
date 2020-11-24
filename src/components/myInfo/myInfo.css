@@ -45,6 +45,7 @@
 @media all and (max-width: 450px){
   .infoDiv {
     flex-direction: column;
+    height: 100%;
   }
 
 }
