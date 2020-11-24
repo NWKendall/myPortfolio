@@ -49,7 +49,6 @@
   .infoOption {
     font-size: 1.2em;
     line-height: 2em;
-    width: auto;
   }
 }
 
@@ -57,15 +56,29 @@
   .infoNav {
     width: 100%;
     flex-direction: row;
-
     justify-content: space-around;
     align-content: center;
     margin: 0 auto;
-
   }
   .infoOption {
     color: var(--text-color);
     width: 100%;
-    line-height: 2em;
+    line-height: 1.8em;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 340px) {
+  .infoOption {
+    line-height: 1.5em;
+    font-size: 1em;
+
+  }
+}
+
+@media all and (max-width: 300px) {
+  .infoOption {
+    line-height: 1.2em;
+    font-size: 0.8em;
   }
 }

@@ -16,7 +16,7 @@
 
 @media all and (max-width: 1300px) {
   .infoDiv {
-    height: 85vh;
+    /* height: 85vh; */
   }
   .infoContents {
     margin: 4em 4em 4em 2em;
@@ -49,3 +49,4 @@
   }
 
 }
+
